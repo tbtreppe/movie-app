@@ -1,4 +1,4 @@
-$("form-submit").on("submit", function (evt) {
+$("#form-submit").on("submit", function (evt) {
   evt.preventDefault();
 
   let movie = $("#movie").val();
